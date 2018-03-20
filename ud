@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 usage () {
-  printf 'Usage: ud <term> [# results (1)]\n'
+  printf 'Usage: ud <term> [# results]\n'
   printf '\nurban dictionary search\n\n'
   exit 1
 }
