@@ -34,5 +34,5 @@ ${BOLD}Example${RESET}
 EOS
 )
 
-curl -sL 'http://api.urbandictionary.com/v0/define?term='"$term" | \
+curl -sL 'https://api.urbandictionary.com/v0/define?term='"$term" | \
   jq -C -r 'limit('"$n"';.list[]) | "'"$format"'"'
